@@ -5,11 +5,26 @@
 3:14:54까지 완료
 
 ## 설치
+
 ```
 [backend]
 npm install express cookie-parser mailtrap bcryptjs dotenv jsonwebtoken mongoose crypto
 npm i nodemon -D
 npm i cors
+npm install cross-env --save-dev
+
+[Linux, macOS]
+"scripts": {
+    "dev": "NODE_ENV=development nodemon backend/index.js",
+    "start": "NODE_ENV=production node backend/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+[window]
+"scripts": {
+  "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
+  "start": "cross-env NODE_ENV=production node backend/index.js",
+  "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+}
 
 [frontend]
 npm create vite@latest .
