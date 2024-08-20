@@ -4,8 +4,6 @@
 
 [참고영상](https://youtu.be/pmvEgZC55Cg?si=Md0ycCec1aoQFrgw)
 
-3:14:54까지 완료
-
 ## 설치
 
 ```
