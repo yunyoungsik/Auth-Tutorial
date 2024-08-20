@@ -1,5 +1,7 @@
 # Auth Tutorial
 
+<img style="width: 100%" src="https://github.com/yunyoungsik/Auth-Tutorial/blob/main/frontend/public/thumnail.png?raw=true" />
+
 [참고영상](https://youtu.be/pmvEgZC55Cg?si=Md0ycCec1aoQFrgw)
 
 3:14:54까지 완료
